@@ -7,6 +7,8 @@
 #ifndef __ÇPROJECTNAMEASIDENTIFIERÈ_H
 #define __ÇPROJECTNAMEASIDENTIFIERÈ_H
 
+#include <stdio.h>
+
 #ifndef __audioeffectx__
 #include "audioeffectx.h"
 #endif
@@ -18,10 +20,10 @@ enum {
 };
 
 // TODO: Change these values to reflect your plugin's configuration
-static const int kNumPrograms = 0;
-static const int kNumInputs = 0;
-static const int kNumOutputs = 2;
-static const unsigned long kUniqueId = 'XXXX';
+const int kNumPrograms = 0;
+const int kNumInputs = 0;
+const int kNumOutputs = 2;
+const unsigned long kUniqueId = 'XXXX';
 
 class ÇPROJECTNAMEASIDENTIFIERÈ : public AudioEffectX {
 public:

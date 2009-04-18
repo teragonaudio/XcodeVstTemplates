@@ -28,7 +28,7 @@ VstInt32 ÇPROJECTNAMEASIDENTIFIERÈ::canDo(char *text) {
 }
 
 bool ÇPROJECTNAMEASIDENTIFIERÈ::getEffectName(char* name) {
-  strncpy(name, "ÇPROJECTNAMEASIDENTIFIERÈ", kProgramNameSize);
+  strncpy(name, "ÇPROJECTNAMEASIDENTIFIERÈ", kVstMaxProductStrLen);
   return true;
 }
 

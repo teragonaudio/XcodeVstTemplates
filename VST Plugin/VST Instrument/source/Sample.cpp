@@ -56,7 +56,7 @@ VstInt32 ÇPROJECTNAMEASIDENTIFIERÈ::getCurrentMidiProgram(VstInt32 channel, Midi
 }
 
 bool ÇPROJECTNAMEASIDENTIFIERÈ::getEffectName(char* name) {
-  strncpy(name, "ÇPROJECTNAMEÈ", kVstMaxEffectNameLen);
+  strncpy(name, "ÇPROJECTNAMEÈ", kVstMaxProductStrLen);
   return true;
 }
 
