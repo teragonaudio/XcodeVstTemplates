@@ -13,12 +13,10 @@ AudioEffect* createEffectInstance(audioMasterCallback audioMaster) {
 }
 
 ÇPROJECTNAMEASIDENTIFIERÈ::ÇPROJECTNAMEASIDENTIFIERÈ(audioMasterCallback audioMaster)
-  : AudioEffectX(audioMaster, NUM_PROGRAMS, NUM_PARAMS) {
+: AudioEffectX(audioMaster, kNumPrograms, kNumParameters) {
   setNumInputs(kNumInputs);
   setNumOutputs(kNumOutputs);
   setUniqueID(kUniqueId);
-  
-  strncpy(mProgramName, "Default", kProgramNameSize); // default program name
 }
 
 ÇPROJECTNAMEASIDENTIFIERÈ::~ÇPROJECTNAMEASIDENTIFIERÈ() {
@@ -35,37 +33,23 @@ bool ÇPROJECTNAMEASIDENTIFIERÈ::getEffectName(char* name) {
 }
 
 float ÇPROJECTNAMEASIDENTIFIERÈ::getParameter(VstInt32 index) {
-  switch(index) {
-    default:
-      return 0.0;
-  }
+  // TODO: Get parameter value for index
+  return 0.0;
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::getParameterDisplay(VstInt32 index, char *text) {
-  switch(index) {
-    default:
-      strcpy(text, "ERROR");
-      break;
-  }
+  // TODO: Get parameter name for index
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::getParameterLabel(VstInt32 index, char *text) {
-  switch(index) {
-    default:
-      strcpy(text, "ERROR");
-      break;
-  }
+  // TODO: Get parameter value label for index
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::getParameterName(VstInt32 index, char *text) {
-  switch(index) {
-    default:
-      strcpy(text, "ERROR");
-      break;
-  }
+  // TODO: Get parameter name for index
 }
 
-VstPlugCategory ÇPROJECTNAMEASIDENTIFIERÈ ::getPlugCategory() {
+VstPlugCategory ÇPROJECTNAMEASIDENTIFIERÈ::getPlugCategory() {
   return kPlugCategEffect;
 }
 
@@ -75,7 +59,7 @@ bool ÇPROJECTNAMEASIDENTIFIERÈ::getProductString(char* text) {
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::getProgramName(char *name) {
-  strncpy(name, mProgramName, kProgramNameSize);
+  // TODO: Get the current program name
 }
 
 bool ÇPROJECTNAMEASIDENTIFIERÈ::getVendorString(char* text) {
@@ -84,16 +68,14 @@ bool ÇPROJECTNAMEASIDENTIFIERÈ::getVendorString(char* text) {
 }
 
 VstInt32 ÇPROJECTNAMEASIDENTIFIERÈ::getVendorVersion() {
+  // TODO: Get plugin version
   return 1000;
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::setParameter(VstInt32 index, float value) {
-  switch(index) {
-    default:
-      break;
-  }
+  // TODO: Set parameter value for index
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::setProgramName(char *name) {
-  strcpy(mProgramName, name, kProgramNameSize);
+  // TODO: Set current program's name
 }

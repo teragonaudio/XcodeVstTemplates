@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2407DEB9089929BA00EB68BF /* «PROJECTNAME».cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2407DEB6089929BA00EB68BF /* «PROJECTNAME».cpp */; };
-		243471B5098310850063BBF1 /* defaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 243471B4098310850063BBF1 /* defaults.h */; };
 		2434720B098313350063BBF1 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2434720A098313350063BBF1 /* QuickTime.framework */; };
 		245463B90991757100464AD3 /* «PROJECTNAME».h in Headers */ = {isa = PBXBuildFile; fileRef = 245463B80991757100464AD3 /* «PROJECTNAME».h */; };
 		24A201510F90D1DE003BB5A7 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 24A2FEBD0F90D1DC003BB5A7 /* Thumbs.db */; };
@@ -670,7 +669,6 @@
 		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		2407DE920899296600EB68BF /* «PROJECTNAME».vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "«PROJECTNAME».vst"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2407DEB6089929BA00EB68BF /* «PROJECTNAME».cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = "«PROJECTNAME».cpp"; path = "source/«PROJECTNAME».cpp"; sourceTree = "<group>"; };
-		243471B4098310850063BBF1 /* defaults.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = defaults.h; path = source/defaults.h; sourceTree = SOURCE_ROOT; };
 		2434720A098313350063BBF1 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
 		245463B80991757100464AD3 /* «PROJECTNAME».h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "«PROJECTNAME».h"; path = "source/«PROJECTNAME».h"; sourceTree = "<group>"; };
 		24A200000F90D1DD003BB5A7 /* bmp10014.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = bmp10014.bmp; sourceTree = "<group>"; };
@@ -1337,7 +1335,6 @@
 			children = (
 				2407DEB6089929BA00EB68BF /* «PROJECTNAME».cpp */,
 				24D8286F09A914000093AEF8 /* «PROJECTNAME»Proc.cpp */,
-				243471B4098310850063BBF1 /* defaults.h */,
 				245463B80991757100464AD3 /* «PROJECTNAME».h */,
 			);
 			name = Source;
@@ -2419,7 +2416,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243471B5098310850063BBF1 /* defaults.h in Headers */,
 				245463B90991757100464AD3 /* «PROJECTNAME».h in Headers */,
 				24D8287F09A9164A0093AEF8 /* xcode_vst_prefix.h in Headers */,
 				24A202190F90D1DE003BB5A7 /* aeffect.h in Headers */,

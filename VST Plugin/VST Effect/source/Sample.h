@@ -11,9 +11,19 @@
 #include "audioeffectx.h"
 #endif
 
-#ifndef __defaults_h__
-#include "defaults.h"
-#endif
+// TODO: Add your parameter definitions here
+enum {
+  // kFirstParameter = 0,
+  kNumParameters
+};
+
+// TODO: Add other macros or preprocessor defines here
+
+// TODO: Change to reflect your plugin
+const int kNumPrograms 0
+const int kNumInputs 2
+const int kNumOutputs 2
+const unsigned long kUniqueId 'XXXX'
 
 class ÇPROJECTNAMEASIDENTIFIERÈ : public AudioEffectX {
 public:
@@ -40,7 +50,6 @@ public:
   virtual void setProgramName(char *name);
   
 private:
-  char mProgramName[kProgramNameSize];
 };
 
 #endif
