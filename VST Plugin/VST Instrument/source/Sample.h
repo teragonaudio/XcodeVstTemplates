@@ -7,15 +7,21 @@
 #ifndef __ÇPROJECTNAMEASIDENTIFIERÈ_H
 #define __ÇPROJECTNAMEASIDENTIFIERÈ_H
 
-#include <stdio.h>
-
 #ifndef __audioeffectx__
 #include "audioeffectx.h"
 #endif
 
-#ifndef __defaults_h__
-#include "defaults.h"
-#endif
+// TODO: Add your parameters to this list
+enum {
+  // kFirstParameter = 0,
+  kNumParameters
+};
+
+// TODO: Change these values to reflect your plugin's configuration
+static const int kNumPrograms = 0;
+static const int kNumInputs = 0;
+static const int kNumOutputs = 2;
+static const unsigned long kUniqueId = 'XXXX';
 
 class ÇPROJECTNAMEASIDENTIFIERÈ : public AudioEffectX {
 public:

@@ -50,10 +50,6 @@ bool ÇPROJECTNAMEASIDENTIFIERÈ::copyProgram(long destination) {
 }
 
 VstInt32 ÇPROJECTNAMEASIDENTIFIERÈ::getCurrentMidiProgram(VstInt32 channel, MidiProgramName *mpn) {
-	if(channel < 0 || channel >= 16 || mpn == NULL) {
-		return -1;
-  }
-  
 	VstInt32 prg = 0;
   // TODO: Look up your current MIDI program and fill the MidiProgramName with it
 	return prg;
@@ -107,38 +103,20 @@ bool ÇPROJECTNAMEASIDENTIFIERÈ::getOutputProperties(VstInt32 index, VstPinProper
 }
 
 float ÇPROJECTNAMEASIDENTIFIERÈ::getParameter(VstInt32 index) {
-  switch(index) {
-    // TODO: Add other parameter cases here
-    default:
-      return 0.0;
-  }
+  // TODO: Get parameter value for index
+  return 0.0;
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::getParameterDisplay(VstInt32 index, char *text) {
-  switch(index) {
-    // TODO: Add other parameter cases here
-    default:
-      strcpy(text, "ERROR");
-      break;
-  }
+  // TODO: Get parameter display for index
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::getParameterLabel(VstInt32 index, char *text) {
-  switch(index) {
-    // TODO: Add other parameter cases here
-    default:
-      strcpy(text, "ERROR");
-      break;
-  }
+  // TODO: Get parameter label for index
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::getParameterName(VstInt32 index, char *text) {
-  switch(index) {
-    // TODO: Add other parameter cases here
-    default:
-      strcpy(text, "ERROR");
-      break;
-  }
+  // TODO: Get parameter name for index
 }
 
 VstPlugCategory ÇPROJECTNAMEASIDENTIFIERÈ::getPlugCategory() { 
@@ -166,10 +144,12 @@ bool ÇPROJECTNAMEASIDENTIFIERÈ::getVendorString(char* text) {
 }
 
 VstInt32 ÇPROJECTNAMEASIDENTIFIERÈ::getVendorVersion() {
+  // TODO: Return actual version of this plugin
   return 1000;
 }
 
 bool ÇPROJECTNAMEASIDENTIFIERÈ::hasMidiProgramsChanged(VstInt32 channel) {
+  // TODO: Return true/false if the MIDI programs have changed
   return false;
 }
 
@@ -179,11 +159,7 @@ void ÇPROJECTNAMEASIDENTIFIERÈ::setBlockSize(VstInt32 blockSize) {
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::setParameter(VstInt32 index, float value) {
-  switch(index) {
-    // TODO: Add other parameter cases here
-    default:
-      break;
-  }
+  // TODO: Set parameter value for index
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::setProgram(VstInt32 index) {
@@ -195,5 +171,6 @@ void ÇPROJECTNAMEASIDENTIFIERÈ::setProgramName(char *name) {
 }
 
 void ÇPROJECTNAMEASIDENTIFIERÈ::setSampleRate(float sampleRate) {
+  // TODO: Handle this call if necessary
 	AudioEffectX::setSampleRate(sampleRate);
 }

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2407DEB9089929BA00EB68BF /* «PROJECTNAME».cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2407DEB6089929BA00EB68BF /* «PROJECTNAME».cpp */; };
 		2407DEBA089929BA00EB68BF /* «PROJECTNAME».h in Headers */ = {isa = PBXBuildFile; fileRef = 2407DEB7089929BA00EB68BF /* «PROJECTNAME».h */; };
-		24294B8409914D9B0006810F /* defaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 24294B8309914D9B0006810F /* defaults.h */; };
 		2454624909915C1400464AD3 /* «PROJECTNAME»Proc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2454624809915C1400464AD3 /* «PROJECTNAME»Proc.cpp */; };
 		24A2FC2D0F90C2F6003BB5A7 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 24A2F9990F90C2F2003BB5A7 /* Thumbs.db */; };
 		24A2FC2E0F90C2F6003BB5A7 /* VST_Logo_Usage_Guideline.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 24A2F99A0F90C2F2003BB5A7 /* VST_Logo_Usage_Guideline.pdf */; };
@@ -671,7 +670,6 @@
 		2407DE920899296600EB68BF /* «PROJECTNAME».vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "«PROJECTNAME».vst"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2407DEB6089929BA00EB68BF /* «PROJECTNAME».cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = "«PROJECTNAME».cpp"; path = "source/«PROJECTNAME».cpp"; sourceTree = "<group>"; };
 		2407DEB7089929BA00EB68BF /* «PROJECTNAME».h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "«PROJECTNAME».h"; path = "source/«PROJECTNAME».h"; sourceTree = "<group>"; };
-		24294B8309914D9B0006810F /* defaults.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = defaults.h; path = source/defaults.h; sourceTree = SOURCE_ROOT; };
 		2454624809915C1400464AD3 /* «PROJECTNAME»Proc.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = "«PROJECTNAME»Proc.cpp"; path = "source/«PROJECTNAME»Proc.cpp"; sourceTree = "<group>"; };
 		24A2F9990F90C2F2003BB5A7 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		24A2F99A0F90C2F2003BB5A7 /* VST_Logo_Usage_Guideline.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = VST_Logo_Usage_Guideline.pdf; sourceTree = "<group>"; };
@@ -1334,7 +1332,6 @@
 			children = (
 				2407DEB6089929BA00EB68BF /* «PROJECTNAME».cpp */,
 				2454624809915C1400464AD3 /* «PROJECTNAME»Proc.cpp */,
-				24294B8309914D9B0006810F /* defaults.h */,
 				2407DEB7089929BA00EB68BF /* «PROJECTNAME».h */,
 			);
 			name = Source;
@@ -2417,7 +2414,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2407DEBA089929BA00EB68BF /* «PROJECTNAME».h in Headers */,
-				24294B8409914D9B0006810F /* defaults.h in Headers */,
 				24D8290609A91ECA0093AEF8 /* xcode_vst_prefix.h in Headers */,
 				24A2FCF50F90C2F7003BB5A7 /* aeffect.h in Headers */,
 				24A2FCF60F90C2F7003BB5A7 /* aeffectx.h in Headers */,
