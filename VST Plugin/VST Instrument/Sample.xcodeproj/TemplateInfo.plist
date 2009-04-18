@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>This project builds a VST Instrument Plugin</string>
+	<key>FilesToMacroExpand</key>
+	<array>
+		<string>mac/Info.plist</string>
+		<string>source/«PROJECTNAME».cpp</string>
+		<string>source/«PROJECTNAME».h</string>
+		<string>source/«PROJECTNAME»Proc.cpp</string>
+		<string>source/defaults.h</string>
+	</array>
+	<key>FilesToRename</key>
+	<dict>
+		<key>Sample.xcodeproj</key>
+		<string>«PROJECTNAME».xcodeproj</string>
+		<key>source/Sample.cpp</key>
+		<string>source/«PROJECTNAME».cpp</string>
+		<key>source/Sample.h</key>
+		<string>source/«PROJECTNAME».h</string>
+		<key>source/SampleProc.cpp</key>
+		<string>source/«PROJECTNAME»Proc.cpp</string>
+	</dict>
+</dict>
+</plist>
