@@ -1,7 +1,7 @@
-To install the templates, simply copy the "VST Plugin" folder to:
-/Developer/Library/Xcode/Project Templates
+Unmaintained Project!
+=====================
 
-Restart Xcode, and then under File -> New Project, you should see a new category for "VST Plugin".  You must also download the VST SDK at:
-http://www.steinberg.net/en/company/3rd_party_developer.html
-
-Instructions for using the VST SDK code with your plugin are provided in the README.rtf file created by the templates.
+This project is no longer being actively maintained; I don't develop with Xcode
+anymore and I can't keep up with new Xcode releases which keep changing the
+project template formatting. The code provided in this repository is for
+reference purposes only.
